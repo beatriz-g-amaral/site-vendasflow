@@ -28,7 +28,9 @@ export default function CtaSection() {
                 🔥 Criar Conta Gratuita
               </a>
               <a
-                href="#"
+                href="https://wa.me/555196402750"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/5 hover:bg-white/10 text-gray-300 font-semibold rounded-2xl border border-white/10 transition-all duration-200 text-lg"
               >
                 📞 Falar com Suporte

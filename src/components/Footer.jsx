@@ -13,6 +13,12 @@ export default function Footer() {
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
               O sistema que ajuda pequenos negócios a controlar vendas parceladas e contas a pagar sem estresse.
             </p>
+            <div className="mt-4 flex items-center gap-2 text-sm text-gray-500">
+              <span>📞</span>
+              <a href="https://wa.me/555196402750" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
+                +55 51 9640-2750
+              </a>
+            </div>
           </div>
 
           <div>
@@ -60,7 +66,16 @@ export default function Footer() {
             © {new Date().getFullYear()} VendasFlow. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-4">
-            {['🐦', '📷', '💼', '📧'].map((icon, i) => (
+            <a
+              href="https://wa.me/555196402750"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-white/5 hover:bg-indigo-500/20 rounded-xl flex items-center justify-center text-sm transition-colors"
+              title="Fale conosco no WhatsApp"
+            >
+              💬
+            </a>
+            {['📷', '💼', '📧'].map((icon, i) => (
               <a
                 key={i}
                 href="#"
